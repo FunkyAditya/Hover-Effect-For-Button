@@ -1,0 +1,58 @@
+body {
+    background-color: #c89edd;
+}
+div{
+  background-color: #4f3e56;
+}
+#st{
+    position: absolute;
+    top: 3%;
+    right: 35%;
+}
+#nd{
+    position: absolute;
+    top: 3%;
+    right: 45%;
+}
+#rd{
+    position: absolute;
+    top: 3%;
+    right: 55%;
+}
+button {
+    background-image: linear-gradient(to right, rgb(18, 87, 59),rgb(85, 118, 94));
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px 8px;
+    font-family: Harrington;
+    font-size: 16px;
+    color: rgb(157, 149, 119);
+  }
+
+  button:hover {
+    background-image: linear-gradient(to left, rgb(18, 87, 59),rgb(85, 118, 94));
+    background-position: right bottom;
+    animation: gradient-move 2s infinite linear;
+  }
+
+  @keyframes gradient-move {
+    0% {
+      background-position: right bottom;
+    }
+    25% {
+      background-position: left bottom;
+    }
+    50% {
+      background-position: right bottom;
+    }
+    75% {
+        background-position: right bottom;
+    }
+    100% {
+        background-position: right bottom;
+    }
+  }
+
